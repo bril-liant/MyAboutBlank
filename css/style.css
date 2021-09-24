@@ -1,3 +1,133 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 .hidden {
   display: none;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--background-image);
+  background-size: cover;
+  background-width: 100%;
+  background-position: center 11%;
+  background-attachment: fixed;
+}
+
+body,
+input,
+textarea,
+select {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#align {
+  position: absolute;
+  left: 50%;
+  top: 17%;
+  transform: translateX(-50%);
+}
+
+#clock {
+  color: white;
+  margin-block-start: 1em;
+  font-size: 9rem;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#id {
+  width: 70%;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  opacity: 0.9;
+}
+
+#submit {
+  display: none;
+}
+
+input::placeholder {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+#quote {
+  color: white;
+  width: 98.5%;
+  position: absolute;
+  text-align: right;
+  bottom: 1%;
+  opacity: 0.3;
+  display: none;
+}
+
+#weather {
+  color: white;
+  width: 98.5%;
+  position: absolute;
+  text-align: left;
+  top: 1%;
+  opacity: 0.6;
+}
+
+#greeting {
+  position: relative;
+  top: -20px;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-block-end: 1.2em;
+  opacity: 0.8;
+}
+
+#login-form {
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  text-align: center;
+  opacity: 0.9;
+}
+
+#todo {
+  position: relative;
+  top: -5px;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  text-align: center;
+  opacity: 0.9;
+}
+
+#todo-list {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#twitter {
+  max-width: 200px;
+  max-height: 300px;
+  overflow: hidden;
+  opacity: 0.4;
+  border-radius: 10px;
+  position: fixed;
+  right: 0.5%;
+  filter: invert(100%) brightness(200%);
+}
+
+#button {
+  border-radius: 5px;
+  margin-left: 5px;
+  position: relative;
+  border: 0px;
+  background-color: transparent;
+  opacity: 0.5;
 }

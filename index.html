@@ -5,33 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>My About Blank</title>
   </head>
 
   <body>
-    <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log In" />
-    </form>
-    <h2 id="clock">00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
+    <div id="align">
+      <div id="clock">00:00</div>
+      <form class="hidden" id="login-form">
+        <input
+          id="id"
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input id="submit" type="submit" value="Log In" />
+      </form>
+      <div id="greeting" class="hidden"></div>
+      <div id="todo" class="hidden">
+        <form id="todo-form">
+          <input
+            id="id"
+            type="text"
+            placeholder="What is your focus for today?"
+            required
+          />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
+    <div id="twitter">
+      <a
+        class="twitter-timeline"
+        href="https://twitter.com/TBZ_schedule?ref_src=twsrc%5Etfw"
+        >Tweets by TBZ_schedule</a
+      >
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+    </div>
+
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
