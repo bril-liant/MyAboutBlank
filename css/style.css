@@ -20,7 +20,7 @@ select {
   font-family: "Noto Sans KR", sans-serif;
 }
 
-#align {
+.align {
   position: absolute;
   left: 50%;
   top: 17%;
