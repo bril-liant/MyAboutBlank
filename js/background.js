@@ -1,4 +1,4 @@
-const images = [
+let images = [
   "https://pbs.twimg.com/media/EqkfJeyVkAA8_eK.jpg:orig",
   "https://pbs.twimg.com/media/EX-v445VAAAbXhw.jpg:orig",
   "https://pbs.twimg.com/media/EkSPgwkUcAIb3os.jpg:orig",
@@ -24,7 +24,6 @@ const images = [
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
-// bgImage.id = "bgImg";
 
 bgImage.src = chosenImage;
 
@@ -32,4 +31,3 @@ document.documentElement.style.setProperty(
   `--background-image`,
   `url(${chosenImage})`
 );
-// document.body.appendChild(bgImage);
