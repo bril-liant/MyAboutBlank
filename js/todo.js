@@ -1,6 +1,7 @@
 const toDoForm = document.getElementById("todo-form");
 const toDoInput = toDoForm.querySelector("input");
 const toDoList = document.getElementById("todo-list");
+const input = document.querySelector("#todo-form input");
 
 const TODOS_KEY = "todos";
 
@@ -15,6 +16,9 @@ function deleteTodo(event) {
   li.remove();
   toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
   saveToDos();
+  if (toDos.length < 1) {
+    input.placeholder = "What is your focus for today?";
+  }
 }
 
 function paintToDo(newTodo) {
@@ -28,6 +32,7 @@ function paintToDo(newTodo) {
   button.addEventListener("click", deleteTodo);
   li.appendChild(span);
   li.appendChild(button);
+  input.placeholder = "";
   toDoList.appendChild(li);
 }
 
@@ -41,6 +46,7 @@ function handleToDOSubmit(event) {
   };
   toDos.push(newTodoObj);
   paintToDo(newTodoObj);
+  input.placeholder = "";
   saveToDos();
 }
 
