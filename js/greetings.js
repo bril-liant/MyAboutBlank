@@ -1,9 +1,7 @@
 const hello = [
-  "All the best for the Year!",
   "I wish you the best of luck.",
   "God bless you!",
   "I hope you'll be happy.",
-  "Many happy returns of the day!",
   "I wish you happiness.",
   "You can do it!",
   "Don’t give up!",
