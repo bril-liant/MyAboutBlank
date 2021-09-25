@@ -45,7 +45,7 @@ select {
 }
 
 #id {
-  min-width: 70%;
+  min-width: 425px;
   width: 70%;
   background: none;
   border-top: none;
