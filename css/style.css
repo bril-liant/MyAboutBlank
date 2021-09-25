@@ -108,6 +108,8 @@ input::placeholder {
   margin-bottom: 2em;
   opacity: 0.8;
   animation: 0.5s ease-out 0s 1 FadeIn;
+  word-break: nowrap;
+  white-space: nowrap;
 }
 
 #login-form {
@@ -139,7 +141,7 @@ input::placeholder {
 
 #twitter {
   max-width: 200px;
-  max-height: 410px;
+  max-height: 44%;
   overflow: hidden;
   opacity: 0.4;
   border-radius: 10px;
