@@ -44,7 +44,8 @@ const USERNAME_KEY = "username";
 function onLoginSubmit(event) {
   event.preventDefault();
   loginForm.classList.add(HIDDEN_CLASSNAME);
-  const username = loginInput.value;
+  const userTemp = loginInput.value;
+  username = userTemp.charAt(0).toUpperCase() + userTemp.slice(1);
   localStorage.setItem(USERNAME_KEY, username);
   paintGreetings(username);
 }
