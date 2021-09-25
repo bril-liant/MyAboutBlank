@@ -17,8 +17,6 @@ let images = [
   "https://pbs.twimg.com/media/E9EJ23uVkAENj5Y.jpg:orig",
   "https://pbs.twimg.com/media/ElkLzHiVgAIoKLV.jpg:orig",
   "https://pbs.twimg.com/media/E0x786-UYAAd8w2.jpg:orig",
-  "https://pbs.twimg.com/media/E29zVcZVoAAvslz.jpg:orig",
-  "https://pbs.twimg.com/media/E29zVcnVEAYubAK.jpg:orig",
   "https://pbs.twimg.com/media/FAIMnwJVUAMKBLQ.jpg:orig",
   "https://pbs.twimg.com/media/EWw7EKqXkAQzf08.jpg:orig",
   "https://pbs.twimg.com/media/E8WXTc7VIAoDDUl.jpg:orig",
