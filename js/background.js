@@ -19,6 +19,23 @@ let images = [
   "https://pbs.twimg.com/media/E0x786-UYAAd8w2.jpg:orig",
   "https://pbs.twimg.com/media/E29zVcZVoAAvslz.jpg:orig",
   "https://pbs.twimg.com/media/E29zVcnVEAYubAK.jpg:orig",
+  "https://pbs.twimg.com/media/FAIMnwJVUAMKBLQ.jpg:orig",
+  "https://pbs.twimg.com/media/EWw7EKqXkAQzf08.jpg:orig",
+  "https://pbs.twimg.com/media/E8WXTc7VIAoDDUl.jpg:orig",
+  "https://pbs.twimg.com/media/E9EJ23uVkAENj5Y.jpg:orig",
+  "https://pbs.twimg.com/media/E8VngetVcAECg_j.jpg:orig",
+  "https://pbs.twimg.com/media/EjPLjNlVoAEoLgI.jpg:orig",
+  "https://pbs.twimg.com/media/E29zVcTVIAQtOLA.jpg:orig",
+  "https://pbs.twimg.com/media/Eoe9wS8VEAIRXqx.jpg:orig",
+  "https://pbs.twimg.com/media/Eoe9wS7U8AI51Cm.jpg:orig",
+  "https://pbs.twimg.com/media/EoitGAVVQAABZVU.jpg:orig",
+  "https://pbs.twimg.com/media/EoitGAVVoAAxMsq.jpg:orig",
+  "https://pbs.twimg.com/media/Ei7WcC4U0AI5PsU.jpg:orig",
+  "https://pbs.twimg.com/media/Eph12Z3VQAIHy7-.jpg:orig",
+  "https://pbs.twimg.com/media/Ei182mGVgAEfQyK.jpg:orig",
+  "https://pbs.twimg.com/media/E9oCMNgVkAQoSzY.jpg:orig",
+  "https://pbs.twimg.com/media/Eph12Z4VgAMtT4m.jpg:orig",
+  "https://pbs.twimg.com/media/E9tb9OPVkAAXFjW.jpg:orig",
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
