@@ -155,6 +155,7 @@ input::placeholder {
   position: relative;
   font-size: 1em;
   cursor: pointer;
+  opacity: 0.4;
 }
 
 .delete {
