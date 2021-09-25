@@ -14,7 +14,6 @@ function onGeoOk(position) {
         data.main.temp
       )}℃`;
     });
-  console.log(url);
 }
 function onGeoError() {
   alert("Can't find you. No weather for you.");
