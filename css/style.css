@@ -144,8 +144,8 @@ input::placeholder {
   opacity: 0.4;
   border-radius: 10px;
   position: fixed;
-  top: 1%;
-  right: 0.5%;
+  top: 1.2%;
+  right: 0.3%;
   filter: invert(100%) brightness(200%);
   animation: 2s ease-out 0s 1 FadeInTwitter;
 }
