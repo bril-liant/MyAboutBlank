@@ -6,6 +6,7 @@
 }
 
 body {
+  background-color: black;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     var(--background-image);
   background-size: cover;
@@ -36,6 +37,7 @@ select {
   text-align: center;
   margin-bottom: 0.2em;
   opacity: 0.8;
+  animation: 0.2s ease-out 0s 1 FadeIn;
 }
 
 #id {
@@ -51,6 +53,7 @@ select {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   opacity: 0.9;
+  animation: 0.4s ease-out 0s 1 FadeIn;
 }
 
 #submit {
@@ -81,6 +84,7 @@ input::placeholder {
   top: 1%;
   left: 0.5%;
   opacity: 0.6;
+  animation: 0.3s ease-out 0s 1 FadeInTwitter;
 }
 
 #greeting {
@@ -91,6 +95,7 @@ input::placeholder {
   margin-top: 0.5em;
   margin-bottom: 2em;
   opacity: 0.8;
+  animation: 0.3s ease-out 0s 1 FadeIn;
 }
 
 #login-form {
@@ -115,6 +120,7 @@ input::placeholder {
 #todo-list {
   list-style: none;
   font-size: 1.3rem;
+  animation: 0.5s ease-out 0s 1 FadeIn;
 }
 
 #twitter {
@@ -127,6 +133,7 @@ input::placeholder {
   top: 1%;
   right: 0.5%;
   filter: invert(100%) brightness(200%);
+  animation: 2s ease-out 0s 1 FadeInTwitter;
 }
 
 #button {
@@ -136,4 +143,22 @@ input::placeholder {
   border: 0px;
   background-color: transparent;
   opacity: 0.5;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes FadeInTwitter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.4;
+  }
 }
