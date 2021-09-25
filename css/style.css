@@ -30,7 +30,7 @@ select {
 
 #clock {
   color: white;
-  margin-top: 1.3em;
+  margin-block-start: 1.3em;
   font-size: 9rem;
   font-weight: bold;
   text-align: center;
