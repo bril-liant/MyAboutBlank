@@ -59,3 +59,15 @@ if (savedToDos !== null) {
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo);
 }
+
+// storage clear
+const deleteButton = document.getElementById("deleteBtn");
+
+function deleteStorage(event) {
+  if (window.confirm("Reset all settings")) {
+    localStorage.clear();
+    location.reload();
+  }
+}
+
+deleteButton.addEventListener("click", deleteStorage);

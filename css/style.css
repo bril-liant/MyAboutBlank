@@ -150,11 +150,20 @@ input::placeholder {
 }
 
 #button {
-  border-radius: 5px;
+  all: unset;
   margin-left: 5px;
   position: relative;
-  border: 0px;
-  background-color: transparent;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.delete {
+  all: unset;
+  font-size: 1.2em;
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  cursor: pointer;
   opacity: 0.5;
 }
 
