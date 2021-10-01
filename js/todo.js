@@ -17,7 +17,7 @@ function deleteTodo(event) {
   toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
   saveToDos();
   if (toDos.length < 1) {
-    input.placeholder = "What is your focus for today?";
+    input.placeholder = "Add your To Do list.";
   }
 }
 
