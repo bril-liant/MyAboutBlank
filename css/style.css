@@ -168,7 +168,7 @@ input::placeholder {
   bottom: 1%;
   right: 0.5%;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 @keyframes FadeIn {
